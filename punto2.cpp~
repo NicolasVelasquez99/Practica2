@@ -4,7 +4,6 @@
  * fecha de creacion: 26/04/17
  * fecha de ultima modificacion: 26/04/17
  */
-
  #include <iostream>
  #include <math.h>
  
@@ -16,7 +15,6 @@
 	
  int main(){
 	 int * ptrVariable = 0;
-	 
 	 int entero1 = 100;
 	 ptrVariable=&entero1;
 	 
@@ -28,4 +26,5 @@
 	 modificar(ptrVariable);
 	 
 	 cout << entero1 << "\n" << entero2;
- }
+ }    
+       
