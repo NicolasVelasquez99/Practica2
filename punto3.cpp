@@ -13,7 +13,7 @@ using namespace std;
 
 
 
-void recolectarDatos(string** arrayDatosPersona){
+void recolectarDatos(string** &arrayDatosPersona){
 	 
 	arrayDatosPersona = new string* [3];
 		for(int i=0; i<3; i++){
@@ -50,7 +50,7 @@ void imprimirResultados(string** &arrayDatosPersona, double* &salariosPersona){
 	
 	for(int i=0; i<3; i++){
 		
-		cout<< "La persona "<< arrayDatosPersona[i][0] << arrayDatosPersona[i][1] << salariosPersona[i] << endl;
+		cout<< "La persona "<< arrayDatosPersona[i][0] << " " << arrayDatosPersona[i][1] <<" " << salariosPersona[i] << endl;
 	}
 	
 }
